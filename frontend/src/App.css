@@ -1,0 +1,24 @@
+/* A simple, clean style for your app */
+.App { text-align: center; font-family: sans-serif; }
+.App-header { background-color: #282c34; padding: 20px; color: white; margin-bottom: 2rem; }
+.input-section { margin-bottom: 2rem; }
+.input-section input, .input-section select, .input-section button {
+  padding: 10px; font-size: 16px; margin: 0 5px;
+}
+.results-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+.chart-container { width: 100%; max-width: 600px; }
+.summary-container {
+  width: 100%; max-width: 400px; text-align: left;
+  border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;
+}
+.summary-container h2, .summary-container h3 { margin-top: 0; }
+.highlight { font-weight: bold; color: #007bff; }
+.news-analysis { font-style: italic; color: #555; }
+.error { color: red; }
